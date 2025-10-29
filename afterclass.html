@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Afterclass</title>
+</head>
+
+<body>
+    <script>
+        //Function to add numbers
+        function number(a, b, c)
+        {
+            var sum = 0
+            var i
+            for (i = 0; i < arguments.length; i++) {
+                sum = sum + arguments[i]
+            }
+            return sum
+        }
+        var result = number(9, 10, 11)
+
+        document.write(result + "<br>")
+
+        //For trigo
+        var deg = 45
+        var rad = deg * (Math.PI / 180)
+        document.write(Math.tan(rad) + "<br>")
+        document.write(Math.sin(rad) + "<br>")
+        document.write(Math.cos(rad) + "<br>")
+
+    </script>
+</body>
+
+</html>
